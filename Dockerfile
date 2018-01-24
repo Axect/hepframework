@@ -13,7 +13,7 @@ RUN dnf install -y git cmake gcc-c++ gcc binutils findutils wget\
 	   avahi-compat-libdns_sd-devel python-devel \
 	   libxml2-devel \
 	   boost-devel zlib-devel gzip \
-	   CGAL-devel swig
+	   CGAL-devel swig firefox
 
 # Python Install
 RUN pip3 install --upgrade pip && pip3 install jupyter \
